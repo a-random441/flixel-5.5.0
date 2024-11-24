@@ -94,7 +94,7 @@ class FlxSound extends FlxBasic
 	 */
 	public var volume(get, set):Float;
 	
-	#if FLX_PITCH
+	#if (sys && openfl_legacy)
 	/**
 	 * Set pitch, which also alters the playback speed. Default is 1.
 	 */
