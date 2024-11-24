@@ -178,7 +178,7 @@ class FlxSound extends FlxBasic
 	 */
 	var _length:Float = 0;
 	
-	#if FLX_PITCH
+	#if (sys && openfl_legacy)
 	/**
 	 * Internal tracker for pitch.
 	 */
